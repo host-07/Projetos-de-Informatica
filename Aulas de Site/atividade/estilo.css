@@ -1,0 +1,43 @@
+
+.meu-botao {
+    background-color: #ff0707;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #pai{
+    background-color: #1013dd;
+    font-size: larger;
+    height: 700px;
+    border-radius: 50px;
+  }
+
+  h1{
+    color: #fff;
+  }
+  
+  ul{
+    color: #fff;
+    width: 10px;
+  }
+
+  #ul02{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #be2020;
+    margin: 0 auto;
+    flex-basis: auto;
+  }
+
+  .lista-tarefas{
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .meu-botao:hover {
+    background-color: #be2020;
+  }
