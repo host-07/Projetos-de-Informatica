@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+
+
+    
+       
+    <style>
+
+    #caixa{
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    </style>   
+
+</head>
+
+<body>
+    <h1>
+        
+        Projeto JavaScript
+
+    </h1>
+
+<h2>
+    JavaScript is the world's most popular programming language. <br>
+
+    JavaScript is the programming language of the Web. <br>
+    
+    JavaScript is easy to learn. <br>
+    
+    This tutorial will teach you JavaScript from basic to advanced. <br>
+    
+</h2>
+<h3 id="par1">Sextouu</h3>
+
+<body>
+    <button type="button" onclick="minhafuncao()" > Aplicar</button>
+<div id="caixa"></div>
+
+    <button type="button" onclick="mudarCor()">M_cor</button>
+
+<script>
+
+    function minhafuncao() {
+        document.getElementById("par1").style.backgroundColor = "yellow";
+    }
+    let frase = "Sextouu";
+    document.getElementById("par1").innerHTML= frase;
+
+    function mudarCor() {
+        let r =math.round(math.random()*255);
+        let g =math.round(math.random()*255);
+        let b =math.round(math.random()*255);
+        console.log(r)
+        
+        document.getElementById("caixa").style.backgroundColor=`rgb(${r},${g},${b})`;
+
+    }
+    
+
+    
+</script>
+
+</body>
+
+</html>
