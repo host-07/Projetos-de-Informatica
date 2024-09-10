@@ -1,0 +1,15 @@
+main{
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border-radius: 50px;
+}
+
+#paiMain{
+    display: flex;
+    justify-content: center;
+}
